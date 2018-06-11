@@ -1,6 +1,6 @@
 <template>
 
-    <nav class="panel">
+    <nav class="panel section">
 
         <p class="panel-heading">{{ title }}</p>
 

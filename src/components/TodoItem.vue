@@ -4,7 +4,7 @@
 
         <p>
             {{ title }}
-            <a class="delete is-pulled-right" @click="$emit('delete')"></a>
+            <a class="delete is-pulled-right" @click="$emit('deleteTodo')"></a>
         </p>
 
     </div>

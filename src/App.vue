@@ -14,7 +14,7 @@
 			<TodoItem v-for="(item, index) in todos"
 				:key="index"
 				:title="item"
-				@delete="deleteItem(index)"
+				@deleteTodo="deleteItem(index)"
 			/>
 
 		</TodoList>

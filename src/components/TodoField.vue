@@ -5,7 +5,7 @@
         <div class="field">
             <label class="label">{{ title }}</label>
             <div class="control">
-                <input class="input" type="text" placeholder="Enter a Todo..." v-model="model">
+                <input class="input" type="text" placeholder="Enter a Todo..." v-model.trim="model">
             </div>
         </div>
 
